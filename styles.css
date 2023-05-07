@@ -1,0 +1,21 @@
+
+
+#home-page {
+    margin: 0 auto;
+}
+
+
+.hero-img {
+    background-image: url('./images/greece2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-img h1 {
+    font-size: 40px;
+  }
