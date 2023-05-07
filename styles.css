@@ -1,12 +1,65 @@
-
-
 #home-page {
     margin: 0 auto;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+}
+
+.header nav ul {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+.header nav ul li {
+    margin: 0 10px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.header nav ul li a:hover {
+    color: #add8e6;
+    transform: translateY(-5px);
+}
 
 .hero-img {
-    background-image: url('./images/greece2.jpg');
+    background-image: url("./images/greece.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -14,8 +67,64 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
+    margin-bottom: 70px;
+}
 
-  .hero-img h1 {
-    font-size: 40px;
-  }
+.hero-img h1 {
+    font-size: 60px;
+}
+
+.hero-video {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.beach-video {
+    flex-basis: 50%;
+}
+
+.video-content {
+    flex-basis: 50%;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.top-destinations {
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.top-destinations h3 {
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.top-destinations ul {
+    display: flex;
+    columns: 2;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-destinations ul li {
+    flex-basis: 50%;
+}
+
+.top-destinations ul li img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
