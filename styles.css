@@ -229,3 +229,9 @@ video {
     background-color: #1982c4;
     color: #ffffff;
 }
+
+.user-form {
+    border: 1px solid #d3d3d3;
+    padding: 14px;
+    border-radius: 10px;
+}

@@ -486,29 +486,31 @@
                 </tbody>
             </table>
             <form class="user-form">
-                <div class="personal-info">
+                <div class="user-firstName">
                     <label for="firstNameInput">First Name</label>
                     <input type="text" name="firstName" id="firstNameInput" />
+                </div>
 
+                <div class="user-lastName">
                     <label for="lastNameInput">Last Name</label>
                     <input type="text" name="lastName" id="lastNameInput" />
+                </div>
 
-                    <br />
-
+                <div class="user-email">
                     <label for="emailInput">Your Email</label>
                     <input type="email" name="email" id="emailInput" />
+                </div>
 
-                    <br />
-
+                <div class="user-phoneNumber">
                     <label for="phoneNumberInput">Phone Number</label>
                     <input
                         type="tel"
                         name="phoneNumber"
                         id="phoneNumberInput"
                     />
+                </div>
 
-                    <br />
-
+                <div class="user-prefferedDestination">
                     <label for="preferredDestinationSelect"
                         >Choose Your Preferred Destination</label
                     >
@@ -527,9 +529,9 @@
                         <option value="Nafplio">Nafplio</option>
                         <option value="Peloponnese">Peloponnese</option>
                     </select>
+                </div>
 
-                    <br />
-
+                <div class="user-preferredService">
                     <p>Choose Your Preferred Travel Service</p>
                     <label for="flightsTravelServiceCheckbox">Flights</label>
                     <input
@@ -560,7 +562,9 @@
                         name="carRentalTravelService"
                         id="carRentalTravelServiceCheckbox"
                     />
+                </div>
 
+                <div class="user-prefferedCommunication">
                     <p>Choose Your Preferred Mode of Communication</p>
                     <label for="emailRadio">Email</label>
                     <input
@@ -582,9 +586,9 @@
                         name="preferredCommunicationMode"
                         id="smsRadio"
                     />
+                </div>
 
-                    <br />
-
+                <div class="user-extraCommetns">
                     <label for="commentsTextarea"
                         >Post Any Comments or Questions Here</label
                     >
@@ -594,9 +598,9 @@
                         cols="20"
                         rows="5"
                     ></textarea>
-
-                    <input type="submit" value="submit" />
                 </div>
+
+                <input class="submit-btn" type="submit" value="submit" />
             </form>
 
             <div class="faqs">
