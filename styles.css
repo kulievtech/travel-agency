@@ -1,6 +1,10 @@
+/* home-page section */
+
 #home-page {
     margin: 0 auto;
 }
+
+/* header */
 
 .header {
     display: flex;
@@ -58,6 +62,8 @@
     transform: translateY(-5px);
 }
 
+/* hero image */
+
 .hero-img {
     background-image: url("./images/greece.jpg");
     background-size: cover;
@@ -73,6 +79,8 @@
 .hero-img h1 {
     font-size: 60px;
 }
+
+/* hero video  */
 
 .hero-video {
     max-width: 1440px;
@@ -97,6 +105,8 @@ video {
     max-width: 100%;
     height: auto;
 }
+
+/* hero top-destinations */
 
 .top-destinations {
     max-width: 1440px;
@@ -130,11 +140,14 @@ video {
     border-radius: 10px;
 }
 
+/* destinations-page section */
 
 #destinations-page {
     margin: 0 auto;
     max-width: 1440px;
 }
+
+/* destinations-table */
 
 .destinations-table {
     border-collapse: collapse;
@@ -145,7 +158,8 @@ video {
     margin-bottom: 70px;
 }
 
-.destinations-table th, .destinations-table td {
+.destinations-table th,
+.destinations-table td {
     padding: 12px;
     border: 1px solid #d3d3d3;
 }
@@ -154,6 +168,8 @@ video {
     background-color: #1982c4;
     color: #ffffff;
 }
+
+/* destinations-guide */
 
 .destinations-guide {
     display: flex;
@@ -164,17 +180,18 @@ video {
     margin-bottom: 70px;
 }
 
-
 dt {
-  padding: 2px 4px;
-  background: #1982c4;
-  color: #ffffff;
+    padding: 2px 4px;
+    background: #1982c4;
+    color: #ffffff;
 }
 
 dd {
-  margin: 0;
-  padding: 4px;
+    margin: 0;
+    padding: 4px;
 }
+
+/* destinations-iframe */
 
 .destinations-iframe {
     display: flex;
@@ -182,3 +199,5 @@ dd {
     align-items: center;
     gap: 40px;
 }
+
+/* contact-us page */
