@@ -39,7 +39,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #333;
+    background-color: #1982c4;
     border-radius: 8px;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .header nav ul li a:hover {
-    color: #add8e6;
+    color: #2ec4b6;
     transform: translateY(-5px);
 }
 
@@ -104,6 +104,7 @@ video {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    margin-bottom: 70px;
 }
 
 .top-destinations h3 {
@@ -127,4 +128,57 @@ video {
     width: 250px;
     height: 250px;
     border-radius: 10px;
+}
+
+
+#destinations-page {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.destinations-table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #eaf4f4;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.destinations-table th, .destinations-table td {
+    padding: 12px;
+    border: 1px solid #d3d3d3;
+}
+
+.destinations-table th {
+    background-color: #1982c4;
+    color: #ffffff;
+}
+
+.destinations-guide {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    border: 1px solid #d3d3d3;
+    padding: 12px;
+    margin-bottom: 70px;
+}
+
+
+dt {
+  padding: 2px 4px;
+  background: #1982c4;
+  color: #ffffff;
+}
+
+dd {
+  margin: 0;
+  padding: 4px;
+}
+
+.destinations-iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
