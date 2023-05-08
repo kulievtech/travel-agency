@@ -486,19 +486,24 @@
                 </tbody>
             </table>
             <form class="user-form">
+                <div class="form-header">
+                    <h3>Contact Us</h3>
+                    <p>Please fill out the form below to get in touch with us.</p>
+                </div>
+
                 <div class="user-firstName">
                     <label for="firstNameInput">First Name</label>
-                    <input type="text" name="firstName" id="firstNameInput" />
+                    <input type="text" name="firstName" id="firstNameInput" placeholder="First Name" />
                 </div>
 
                 <div class="user-lastName">
                     <label for="lastNameInput">Last Name</label>
-                    <input type="text" name="lastName" id="lastNameInput" />
+                    <input type="text" name="lastName" id="lastNameInput" placeholder="Last Name"/>
                 </div>
 
                 <div class="user-email">
                     <label for="emailInput">Your Email</label>
-                    <input type="email" name="email" id="emailInput" />
+                    <input type="email" name="email" id="emailInput" placeholder="you@example.com"/>
                 </div>
 
                 <div class="user-phoneNumber">
@@ -507,6 +512,7 @@
                         type="tel"
                         name="phoneNumber"
                         id="phoneNumberInput"
+                        placeholder="(123) 456-7890"
                     />
                 </div>
 
@@ -531,8 +537,9 @@
                     </select>
                 </div>
 
-                <div class="user-preferredService">
-                    <p>Choose Your Preferred Travel Service</p>
+                <fieldset class="user-preferredService">
+
+                    <legend>Choose Your Preferred Travel Service</legend>
                     <label for="flightsTravelServiceCheckbox">Flights</label>
                     <input
                         type="checkbox"
@@ -562,10 +569,10 @@
                         name="carRentalTravelService"
                         id="carRentalTravelServiceCheckbox"
                     />
-                </div>
+                </fieldset>
 
-                <div class="user-prefferedCommunication">
-                    <p>Choose Your Preferred Mode of Communication</p>
+                <fieldset class="user-prefferedCommunication">
+                    <legend>Choose Your Preferred Mode of Communication</legend>
                     <label for="emailRadio">Email</label>
                     <input
                         type="radio"
@@ -586,7 +593,7 @@
                         name="preferredCommunicationMode"
                         id="smsRadio"
                     />
-                </div>
+                </fieldset>
 
                 <div class="user-extraCommetns">
                     <label for="commentsTextarea"
@@ -600,7 +607,7 @@
                     ></textarea>
                 </div>
 
-                <input class="submit-btn" type="submit" value="submit" />
+                <div><button type="submit">Submit</button></div>
             </form>
 
             <div class="faqs">
