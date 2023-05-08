@@ -201,3 +201,30 @@ dd {
 }
 
 /* contact-us page */
+
+#contactUs-page {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+/* office-location */
+
+.office-location-table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #eaf4f4;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.office-location-table th,
+.office-location-table td {
+    padding: 12px;
+    border: 1px solid #d3d3d3;
+}
+
+.office-location-table th {
+    background-color: #1982c4;
+    color: #ffffff;
+}
