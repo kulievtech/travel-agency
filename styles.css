@@ -180,13 +180,13 @@ video {
     margin-bottom: 70px;
 }
 
-dt {
+.destinations-guide dt {
     padding: 2px 4px;
     background: #1982c4;
     color: #ffffff;
 }
 
-dd {
+.destinations-guide dd {
     margin: 0;
     padding: 4px;
 }
