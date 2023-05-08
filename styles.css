@@ -236,46 +236,48 @@ video {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 70px;
 }
 
 .form-header {
     text-align: center;
     margin-bottom: 20px;
-  }
-  
-  .form-header h2 {
+}
+
+.form-header h2 {
     font-size: 32px;
     margin-bottom: 10px;
-  }
-  
-  .form-header p {
+}
+
+.form-header p {
     font-size: 18px;
     color: #666;
-  }
+}
 
 .user-form div {
     margin-bottom: 20px;
-  }
-  
-  .user-form label {
+}
+
+.user-form label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-  }
-  
-  .user-form input,
-  .user-form textarea {
+}
+
+.user-preferredService {
+    display: block;
+    margin: auto;
+}
+
+.user-form input,
+.user-form textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
+}
 
-  .user-preferredService {
-    
-  }
-
-  .user-form button[type="submit"] {
+.user-form button[type="submit"] {
     background-color: #3498db;
     color: #fff;
     padding: 10px 20px;
@@ -283,8 +285,8 @@ video {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-  }
-  
-  .user-form button[type="submit"]:hover {
+}
+
+.user-form button[type="submit"]:hover {
     background-color: #2980b9;
-  }
+}
