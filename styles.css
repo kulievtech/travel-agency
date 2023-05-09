@@ -290,3 +290,55 @@ video {
 .user-form button[type="submit"]:hover {
     background-color: #2980b9;
 }
+
+.faqs {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    border: 1px solid #d3d3d3;
+    padding: 12px;
+    margin-bottom: 70px;
+    background-color: #f9f9f9;
+}
+
+.faqs dl {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.faqs dt {
+    padding: 2px 4px;
+    background: #eaf4f4;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.faqs dd {
+    margin: 0;
+    padding: 4px;
+}
+
+.contact-googleMaps-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-information {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.contact-information h3 {
+    font-size: 23px;
+}
+
+.contact-information ul {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
