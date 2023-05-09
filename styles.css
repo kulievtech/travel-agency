@@ -208,7 +208,7 @@ video {
     max-width: 1440px;
 }
 
-/* office-location */
+/* office-location section */
 
 .office-location-table {
     border-collapse: collapse;
@@ -229,6 +229,8 @@ video {
     background-color: #1982c4;
     color: #ffffff;
 }
+
+/* form section */
 
 .user-form {
     margin: 0 auto;
@@ -291,6 +293,8 @@ video {
     background-color: #2980b9;
 }
 
+/* frequently asked questions section */
+
 .faqs {
     display: flex;
     flex-flow: row wrap;
@@ -319,6 +323,8 @@ video {
     margin: 0;
     padding: 4px;
 }
+
+/* contact us section */
 
 .contact-googleMaps-section {
     display: flex;
