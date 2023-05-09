@@ -180,13 +180,13 @@ video {
     margin-bottom: 70px;
 }
 
-dt {
+.destinations-guide dt {
     padding: 2px 4px;
     background: #1982c4;
     color: #ffffff;
 }
 
-dd {
+.destinations-guide dd {
     margin: 0;
     padding: 4px;
 }
@@ -228,4 +228,117 @@ dd {
 .office-location-table th {
     background-color: #1982c4;
     color: #ffffff;
+}
+
+.user-form {
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 70px;
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.form-header p {
+    font-size: 18px;
+    color: #666;
+}
+
+.user-form div {
+    margin-bottom: 20px;
+}
+
+.user-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.user-preferredService {
+    display: block;
+    margin: auto;
+}
+
+.user-form input,
+.user-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-form button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.user-form button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.faqs {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    border: 1px solid #d3d3d3;
+    padding: 12px;
+    margin-bottom: 70px;
+    background-color: #f9f9f9;
+}
+
+.faqs dl {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.faqs dt {
+    padding: 2px 4px;
+    background: #eaf4f4;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.faqs dd {
+    margin: 0;
+    padding: 4px;
+}
+
+.contact-googleMaps-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-information {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.contact-information h3 {
+    font-size: 23px;
+}
+
+.contact-information ul {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
 }
