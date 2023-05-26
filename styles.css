@@ -43,7 +43,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1982c4;
+    background-color: var(--blue-color);
     border-radius: 8px;
 }
 
@@ -52,13 +52,13 @@
 }
 
 .header nav ul li a {
-    color: #fff;
+    color: var(--pure-white-color);
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 }
 
 .header nav ul li a:hover {
-    color: #2ec4b6;
+    color: var(--aqua-color);
     transform: translateY(-5px);
 }
 
@@ -152,7 +152,7 @@ video {
 .destinations-table {
     border-collapse: collapse;
     width: 100%;
-    background-color: #eaf4f4;
+    background-color: var(--light-gray-color);
     font-size: 18px;
     text-align: center;
     margin-bottom: 70px;
@@ -161,12 +161,12 @@ video {
 .destinations-table th,
 .destinations-table td {
     padding: 12px;
-    border: 1px solid #d3d3d3;
+    border: 1px solid var(--dark-gray-color);
 }
 
 .destinations-table th {
-    background-color: #1982c4;
-    color: #ffffff;
+    background-color: var(--blue-color);
+    color: var(--pure-white-color);
 }
 
 /* destinations-guide */
@@ -175,15 +175,15 @@ video {
     display: flex;
     flex-flow: row wrap;
     gap: 20px;
-    border: 1px solid #d3d3d3;
+    border: 1px solid var(--dark-gray-color);
     padding: 12px;
     margin-bottom: 70px;
 }
 
 .destinations-guide dt {
     padding: 2px 4px;
-    background: #1982c4;
-    color: #ffffff;
+    background: var(--blue-color);
+    color: var(--pure-white-color);
 }
 
 .destinations-guide dd {
@@ -213,7 +213,7 @@ video {
 .office-location-table {
     border-collapse: collapse;
     width: 100%;
-    background-color: #eaf4f4;
+    background-color: var(--light-gray-color);
     font-size: 18px;
     text-align: center;
     margin-bottom: 70px;
@@ -222,19 +222,19 @@ video {
 .office-location-table th,
 .office-location-table td {
     padding: 12px;
-    border: 1px solid #d3d3d3;
+    border: 1px solid var(--dark-gray-color);
 }
 
 .office-location-table th {
-    background-color: #1982c4;
-    color: #ffffff;
+    background-color: var(--blue-color);
+    color: var(--pure-white-color);
 }
 
 /* form section */
 
 .user-form {
     margin: 0 auto;
-    background-color: #f9f9f9;
+    background-color: var(--gray-color);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -280,8 +280,8 @@ video {
 }
 
 .user-form button[type="submit"] {
-    background-color: #3498db;
-    color: #fff;
+    background-color: var(--light-blue-color);
+    color: var(--pure-white-color);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -290,7 +290,7 @@ video {
 }
 
 .user-form button[type="submit"]:hover {
-    background-color: #2980b9;
+    background-color: var(--sky-blue-color);
 }
 
 /* frequently asked questions section */
@@ -299,10 +299,10 @@ video {
     display: flex;
     flex-flow: row wrap;
     gap: 20px;
-    border: 1px solid #d3d3d3;
+    border: 1px solid var(--dark-gray-color);
     padding: 12px;
     margin-bottom: 70px;
-    background-color: #f9f9f9;
+    background-color: var(--gray-color);
 }
 
 .faqs dl {
@@ -313,8 +313,8 @@ video {
 
 .faqs dt {
     padding: 2px 4px;
-    background: #eaf4f4;
-    color: black;
+    background: var(--light-gray-color);
+    color: var(--black-color);
     font-weight: bold;
     font-size: 17px;
 }

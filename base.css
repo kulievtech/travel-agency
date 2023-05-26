@@ -14,3 +14,16 @@ ul {
 a {
     text-decoration: none;
 }
+
+
+:root {
+    --aqua-color: #2ec4b6;
+    --blue-color: #1982c4;
+    --pure-white-color: #fff;
+    --light-gray-color: #eaf4f4;
+    --dark-gray-color: #d3d3d3;
+    --gray-color: #f9f9f9;
+    --light-blue-color: #3498db;
+    --sky-blue-color: #2980b9;
+    --black-color: #000;
+}
